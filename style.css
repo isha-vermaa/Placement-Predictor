@@ -94,6 +94,19 @@ html {
     background-color: var(--secondary-color);
     border-color: var(--secondary-color);
 }
+/* ===== FIX INPUT VISIBILITY ===== */
+
+input, select, textarea {
+    color: black !important;
+    background-color: white !important;
+}
+
+/* ===== FIX LABEL VISIBILITY ===== */
+
+label {
+    color: white !important;
+    font-weight: 500;
+}
 
 /* Section padding for better spacing */
 section {
